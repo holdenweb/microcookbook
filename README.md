@@ -10,3 +10,6 @@ If you want to talk about something, put it [here](https://github.com/holdenweb/
 
 ## Tasks
 The first task is to produce a draft outline.
+
+## Introductions
+Contributors should introduce themselves [here](https://github.com/holdenweb/microcookbook/blob/main/introductions.md).
