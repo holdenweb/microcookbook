@@ -9,6 +9,8 @@ Here we have:
 * [Recipe ideas](#recipe-ideas): concepts for hardware+software projects
     * [Model train speed display](#model-train-speed-display)
     * [Hot Wheels speed trap](#hot-wheels-speed-trap)
+    * [Timer banner for lightning talks](#timer-banner-for-lightning-talks)
+
 * [Editorial ideas](#editorial-ideas): suggestions about how to organize
 and produce the book, as well as possible variations
     * [Semantic line breaks](#semantic-line-breaks)
@@ -46,7 +48,29 @@ The page is updated with each new photo reading.
  [LR]
 
 ```tags
-Tags: RPi Pico, camera, laser, phototransistor, laser, hotwheels, model railroad, camera
+Tags: RPi Pico, camera, laser, phototransistor, hot wheels, model railroad, camera, HTTP
+```
+
+### Timer banner for lightning talks
+
+Lightning talk sessions work best when there is a large timer visible to
+the speaker and the audience—so they know when to clap ;-)
+
+This project is a 1 meter wide banner made of fabric with a
+3-digit display to show a countdown from
+five minutes shown as 5:00.
+The segments of the digits and the colon are made of LED strips sewn on the fabric,
+together with the microcontroller
+and a pair of buttons to set and restart the timer.
+
+A key technique in this project is how to use the output pins of
+an ESP32 to drive LED strips that require higher voltage and
+draw more current than the microcontroller can provide.
+
+Bonus feature: provide HTTP end points to set and restart the timer.
+
+```tags
+Tags: ESP32, LED strip, HTTP
 ```
 
 ## Editorial ideas
