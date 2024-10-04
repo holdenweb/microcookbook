@@ -80,17 +80,17 @@ A book with a specific microcontroller in the title
 may be more attractive to readers looking for projects
 tailored to the microcontroller they have.
 
-This would be a follow-up to the initial volue,
-which should be a collection of projects using whatever
-microcontrollers we feel like playing with. [LR]
+Those books would be a follow-ups to the initial volume,
+which is a collection of projects using whatever
+microcontrollers each of us wants to play with. [LR]
 
 ### Polyglot variations
 
 Our focus is **MicroPython**, of course.
 
-But again, once we have a bunch of projects and explanations written
+But once we have a bunch of projects and explanations written
 with **MicroPython**, it should not be too hard to rewrite them in
-*JavaScript*, *Go*, or *Rust* and make more derived books.
+*TinyGo*, *Rust*, or *JavaScript* and make more derived books.
 
 As a bonus, a few polyglot projects would provide a very interesting
 comparison between languages, toolchains, and hardware APIs. [LR] 
