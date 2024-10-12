@@ -10,6 +10,7 @@ Here we have:
     * [Model train speed display](#model-train-speed-display)
     * [Hot Wheels speed trap](#hot-wheels-speed-trap)
     * [Timer banner for lightning talks](#timer-banner-for-lightning-talks)
+    * [ISS Locator](#iss-locator)
 
 * [Editorial ideas](#editorial-ideas): suggestions about how to organize
 and produce the book, as well as possible variations
@@ -71,6 +72,22 @@ Bonus feature: provide HTTP end points to set and restart the timer.
 
 ```tags
 Tags: ESP32, LED strip, HTTP
+```
+
+### ISS Locator
+
+Show the current position of the ISS and indicate if it is "visible" at the current location ("visible" based on the angle in the sky). 
+If it is "visible" inform for how long it will stay visible, if not inform how long until it is visible.
+
+This information can be calculated from public available data using the [Skyfield library](https://rhodesmill.org/skyfield/). 
+The hard part of this project may be generating a version of Skyfield that runs with MicroPython.
+
+A graphical display is probably the best for this project.
+
+ [DQ]
+
+```tags
+Tags: Web, graphical display
 ```
 
 ## Editorial ideas
