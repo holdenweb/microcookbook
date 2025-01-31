@@ -108,6 +108,10 @@ Those books would be a follow-ups to the initial volume,
 which is a collection of projects using whatever
 microcontrollers each of us wants to play with. [LR]
 
+Ideally we can isolate architecture-specific content
+in some way that allows its interpolation into the
+shared content in an automated way. _[SH]_
+
 ### Polyglot variations
 
 Our focus is **MicroPython**, of course.
@@ -118,3 +122,9 @@ with **MicroPython**, it should not be too hard to rewrite them in
 
 As a bonus, a few polyglot projects would provide a very interesting
 comparison between languages, toolchains, and hardware APIs. [LR] 
+
+Sure, but let's get a few MicroPython volumes out first! _[SH]_
+
+I'm sure a volume on the differences
+between MicroPython and Circuit Python
+would be interesting and useful. _[SH]_
